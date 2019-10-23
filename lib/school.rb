@@ -1,8 +1,9 @@
-class School 
+class School
+  attr_reader :name 
+  
+  ROSTER = [] 
+  
   def initialize(name)
     @name = name
-  end 
-  def name
-    @name
   end 
 end 
